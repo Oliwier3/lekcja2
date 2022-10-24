@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
             findViewById<Button>(R.id.superPrzycisk).text = "Dziala"
         }
         findViewById<Button>(R.id.piesPrzycisk).setOnClickListener {
-            findViewById<Button>(R.id.piesPrzycisk)
+            findViewById<Button>(R.id.piesPrzycisk).text = "kot"
         }
     }
 }
